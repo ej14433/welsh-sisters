@@ -4,12 +4,12 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby starter ecommerce',
-    author: 'Parminder Sanghera',
-    description: 'A starter e-commerce site made using Gatsby.',
-    siteUrl: 'https://parmsang.github.io/gatsby-starter-ecommerce/',
+    title: 'Welsh Sisters',
+    author: 'Elis Jones',
+    description: 'We sell gin distilled and flavoured in Wales.',
+    siteUrl: 'https://affectionate-saha-a26ec9.netlify.com/',
   },
-  pathPrefix: '/gatsby-starter-ecommerce',
+  pathPrefix: '/welsh-sisters',
   plugins: [
     {
       resolve: '@moltin/gatsby-source-moltin',
