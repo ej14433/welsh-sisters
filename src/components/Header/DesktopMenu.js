@@ -21,7 +21,7 @@ const DesktopMenu = ({location: {pathname}, token, cartCount, signout}) => {
           header
         >
           <Logo />
-          Starter Store
+          Welsh Sisters
         </Menu.Item>
         {token ? (
           <Menu.Menu position="right">

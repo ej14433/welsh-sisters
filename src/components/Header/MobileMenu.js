@@ -89,7 +89,7 @@ const MobileMenu = ({location: {pathname}, token, cartCount, signout}) => {
           active={activeItem === withPrefix('/')}
         >
           <Logo />
-          Store
+          Welsh Sisters
         </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item
