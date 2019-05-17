@@ -54,12 +54,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatsby Shop App',
-        short_name: 'Shop App',
-        start_url: '/gatsby-starter-ecommerce/',
+        name: 'Welsh Sisters Store',
+        short_name: 'Welsh Sisters',
+        start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
-        display: 'minimal-ui',
+        display: 'standalone',
         icons: [
           {
             src: `/favicons/android-chrome-512x512.png`,
