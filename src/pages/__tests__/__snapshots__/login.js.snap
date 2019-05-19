@@ -192,10 +192,10 @@ exports[`renders 1`] = `
             <h4
               class="ui header"
             >
-              Footer Header
+              We make Gin.
             </h4>
             <p>
-              Extra space for a call to action inside the footer that could help re-engage users.
+              All of our Gin is distilled and flavoured in Wales.
             </p>
             <div
               class="ui horizontal list"
