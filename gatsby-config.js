@@ -11,12 +11,17 @@ module.exports = {
   },
   pathPrefix: '/welsh-sisters',
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    'gatsby-plugin-styled-components',
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-robots-txt',
     {
       resolve: '@moltin/gatsby-source-moltin',
       options: {
-        client_id:
-          process.env.MOLTIN_CLIENT_ID ||
-          'j6hSilXRQfxKohTndUuVrErLcSJWP15P347L6Im0M4',
+        client_id: process.env.MOLTIN_CLIENT_ID,
       },
     },
     {
@@ -33,8 +38,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -50,7 +53,6 @@ module.exports = {
         showSpinner: false,
       },
     },
-    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -69,7 +71,5 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
   ],
 }
