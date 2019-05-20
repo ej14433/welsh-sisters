@@ -44,7 +44,7 @@ const DesktopMenu = ({location: {pathname}, token, cartCount, signout}) => {
           </Menu.Menu>
         ) : (
           <Menu.Menu position="right">
-            <Menu.Item
+            {/* <Menu.Item
               as={Link}
               to="/register/"
               active={activeItem === withPrefix('/register/')}
@@ -64,7 +64,7 @@ const DesktopMenu = ({location: {pathname}, token, cartCount, signout}) => {
               active={activeItem === withPrefix('/cart/')}
             >
               <ShoppingCartIcon cartCount={cartCount} name="Cart" />
-            </Menu.Item>
+            </Menu.Item> */}
           </Menu.Menu>
         )}
       </Container>

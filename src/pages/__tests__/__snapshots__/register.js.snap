@@ -31,32 +31,7 @@ exports[`renders 1`] = `
             </a>
             <div
               class="right menu"
-            >
-              <a
-                class="item"
-                href="/register/"
-              >
-                Sign up
-              </a>
-              <a
-                class="item"
-                href="/login/"
-              >
-                Sign in
-              </a>
-              <a
-                class="item"
-                href="/cart/"
-              >
-                <div>
-                  <i
-                    aria-hidden="true"
-                    class="cart icon"
-                  />
-                   Cart (0)
-                </div>
-              </a>
-            </div>
+            />
           </div>
         </div>
       </div>

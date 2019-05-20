@@ -1,7 +1,6 @@
 import React from 'react'
 import {graphql, useStaticQuery} from 'gatsby'
 import get from 'lodash/get'
-import ProductList from '../components/ProductList'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout'
 
@@ -43,12 +42,10 @@ const StoreIndex = ({location}) => {
   `)
 
   const siteTitle = get(data, 'site.siteMetadata.title')
-  const products = get(data, 'allMoltinProduct.edges')
-  const filterProductsWithoutImages = products.filter(v => v.node.mainImageHref)
   return (
     <Layout location={location}>
       <SEO title={siteTitle} />
-      <ProductList products={filterProductsWithoutImages} />
+      <h2>Our beautiful new site is coming soon!</h2>
     </Layout>
   )
 }
